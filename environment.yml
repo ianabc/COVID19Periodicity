@@ -1,0 +1,12 @@
+name: covidperiodicity
+channels:
+  - conda-forge
+  - defaults
+  - conda-forge/label/broken
+dependencies:
+  - pandas
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - scipy
+prefix: /opt/miniconda3/envs/covidperiodicity
